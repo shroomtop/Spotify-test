@@ -1,0 +1,33 @@
+<!-- 
+Deploy with:
+git init && git add index.html && git commit -m "love drop" && git remote add origin git@github.com:<you>/<you>.github.io.git && git push -u origin main
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Love — Shroomtop420®</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-pink-100 via-red-200 to-yellow-100 min-h-screen flex flex-col items-center justify-center text-center p-6">
+  <h1 class="text-3xl font-extrabold text-pink-700 mb-4 animate-pulse">This song made me think of you...</h1>
+  
+  <iframe class="w-full max-w-md rounded-xl shadow-lg mb-6" style="aspect-ratio:1.78;" src="https://open.spotify.com/embed/track/2LlQb7Uoj1s1LkA9pOB0pS?utm_source=generator" frameborder="0" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <p class="text-lg text-gray-700 mb-8">No matter where we are, this melody brings me closer to you.</p>
+
+  <button onclick="openSpotify()" class="bg-pink-600 text-white font-semibold py-3 px-6 rounded-xl hover:bg-pink-700 transition duration-200 shadow-md">
+    Open in Spotify
+  </button>
+
+  <script>
+    const openSpotify = () => {
+      const url = "https://spotify.link/gBaFZthe5Sb";
+      window.open(url, "_blank");
+    };
+  </script>
+
+  <footer class="mt-10 text-sm text-gray-500">Made with love by Shroomtop420®</footer>
+</body>
+</html>
